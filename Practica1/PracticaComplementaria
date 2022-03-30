@@ -1,0 +1,97 @@
+EJERCITACIÓN 1
+
+¿Ventajas de HTML5?
+
+Tiene la ventaja de ser gratuito: no necesita ningún tipo de programa especial para empezar a programar en HTML5, incluso puede hacerlo en un bloc de notas, guardar el documento como HTML y podrá visualizarlo desde cualquier navegador. Sin embargo, aunque esto es posible no es realmente recomendable pues en un bloc de notas no se separan las etiquetas del contenido y puede ser más complicado realizar correcciones. Pero no necesita ningún software costoso, puede usar un editor de código gratuito como Notepad++ que ofrece funciones básicas como diferenciación por color entre etiquetas y contenido.
+Código más ordenado: debido a la adición de nuevas etiquetas que ayudan a nombrar partes de la estructura básica de toda página web (como , por ejemplo), así como la eliminación de ciertas etiquetas, el código HTML se puede separar fácilmente entre etiquetas y contenido, permitiendo así que el desarrollador pueda trabajar de manera más efectiva y detectar errores de manera más rápida. Las etiquetas son claras y descriptivas, de modo que el desarrollador puede comenzar a codificar sin ningún problema. Es realmente un lenguaje bastante sencillo de comprender en esta nueva versión.
+Compatibilidad en navegadores: los navegadores modernos y populares como Chrome, Firefox, Safari y Opera soportan HTML5, es decir, sin importar qué navegador empleen los usuarios el contenido se puede visualizar correctamente. El único problema sería considerar a usuarios que emplean navegadores más antiguos, ya que en estos no todas las nuevas funciones y etiquetas de HTML5 están disponibles.
+Almacenamiento mejorado: otra nueva adición en HTML5 ha sido el almacenamiento local que se define a sí mismo como “mejor que las cookies” pues la información nunca se transfiere al servidor. De esta manera, la información se mantiene segura. Asimismo, esta nueva característica permite que la información se mantenga almacenada incluso después de haber cerrado el navegador y como funciona desde el lado de cliente, la información se mantiene a salvo incluso si el usuario decide borrar sus cookies. Ya que la información se guarda en el navegador del usuario, da muchas más posibilidad a las aplicaciones web como por ejemplo el uso de caché que mejora el tiempo de respuesta de la aplicación.
+HMTL5 y el diseño adaptativo: HTML5 es compatible con los navegadores móviles, de modo que cada página realizada en HTML5 que se ve en ordenadores, también se puede adaptar a los dispositivos móviles. Esta especificación para móviles puede hacerla desde el mismo documento HTML o puede emplear una framework especializada para mejorar tu productividad. Esta característica del lenguaje HTML5 es probablemente una de las más útiles, pues se puede acceder a cualquier página o aplicación web desde un dispositivo móvil y permite que la experiencia sea igual de buena que al visitar una página web en ordenadores.
+
+¿Por qué utilizarlo?
+
+La nueva versión de HTML contiene elementos dedicados ampliamente a mejorar la experiencia del usuario en nuestra página web, haciendo más fácil al diseñador poder agregar elementos de audio, video y en general del web 2.0 así como organizar sus contenidos utilizando menos código.
+La nueva versión es más eficiente y ocupa menos recursos en la computadora del cliente, en particular mediante el uso del nuevo reproductor que no requiere flash o adobe player para utilizarse, y siendo el HTML5 compatible con las versiones anteriores de HTML, utilizar la nueva versión en una página ya diseñada implica un menor trabajo que si fuera una colección completamente nueva.
+Es importante utilizarlo ya que es un lenguaje estándar que utilizan todos los sitios web de internet.
+
+Nombre ventajas
+
+La gran ventaja de desarrollar aplicaciones HTML5 es que el resultado final es completamente accesible, es decir, se puede acceder a esta aplicación desde un ordenador, tablet o móvil. Incluso al cambiar de dispositivo, se puede acceder a la aplicación web mediante la URL respectiva, cosa que no sucede con una aplicación móvil. 
+También, pueden subirse videos a páginas de terceros como Vimeo o Youtube e incrustarlos en el nuevo sitio web, esta es una de las opciones más viables pues a pesar de colocar elementos multimedia, el peso final del archivo no se ve afectado. La geolocalización permite al sitio detectar la ubicación de cada usuario que ingresa al sitio web. Esto puede tener diversos usos, por ejemplo, para ofrecer opción de idiomas según el lugar de ubicación del usuario o para enlazarlo a la página oficial de la marca en el país en el que se encuentra, entre otras opciones útiles que, dependiendo como la use, pueden mejorar la experiencia de usuario. Es una característica con la que hay que tener bastante cuidado e informar al cliente al respecto pues de lo contrario, sería una violación a su privacidad. Es por ello que esta opción no se puede activar si el usuario no lo aprueba. Con HTML5 se pueden crear animaciones en 2D gracias a la etiqueta.
+
+
+EJERCITACIÓN 2
+
+2.A) ¿Qué formatos soporta ?
+
+Dentro de los formatos encontramos los siguientes:
+
+WAV, o WAVE. Es un formato de audio digital sin compresión de datos. Desarrollado por Microsoft e IBM.
+MP3, formato de compresión de audio digital. Desarrollado por el Moving Picture Experts Group (MPEG)
+AAC, o Advanced Audio Coding. Es un codec digital con perdida que se corresponde al estándar internacional “ISO/IEC 13818-7” como una extensión de MPEG-2. Es muy utilizado en dispositivos Apple.
+Vorbis, codec digital con perdida, conseguida mediante la compresión de datos, y de formato abierto. El contenedor utilizado es Ogg. Desarrollador por Xiph.org
+Opus, codec digital con pérdida, de formato abierto. El contenedor utilizado es Ogg. Está estandarizado por el Internet Engineering Task Force (IETF).
+
+2.B) Crear un elemento audio
+
+<audio src="https://html5tutorial.info/media/vincent.mp3" controls loop autoplay></audio>
+
+EJERCITACIÓN 3
+
+3.A) ¿Qué formatos soporta ?
+
+Los tres formatos que se deben tener en cuenta para la Web son WebM, MP4 y OGV:
+mp4 = H. 264 + AAC.
+ogg/. ogv = Theora + Vorbis.
+webm = VP8 + Vorbis.
+
+3.B) Crear un elemento video
+
+<video src="https://html5tutorial.info/media/html5iscool.mp4" controls width="480" height="360"></video>
+
+EJERCITACIÓN 4
+
+4.A) Crear un formulario con un campo requerido
+
+<form>
+        <label for="choose">Ingrese DNI (requerido) </label>
+        <input id="choose" name="i_like" required>
+        <button>Enviar</button>
+      </form>
+
+4.B) Crear un formulario con un campo de tipo email y validar que funcione
+
+<form action="../../form-result.php" method="post" target="_blank">
+  <p>
+    Dirección de correo electrónico: <input type="email" name="direccionemail" placeholder="Ej.: ejemplo@ejemplo.com">
+    <input type="submit" value="Enviar datos">
+  </p>
+</form>
+
+4.C) Crear un formulario con un campo de tipo fecha y validar que funcione
+
+<form action="../../form-result.php" method="post" target="_blank">
+    <p>
+      Ingrese fecha de cumpleaños: <input type="date" name="fecha" placeholder="Ej.: dd/mm/aaaa">
+      <input type="submit" value="Enviar datos">
+    </p>
+    </form>
+
+4.D) Crear un formulario con un campo de tipo color y validar que funcione
+
+<form action="../../form-result.php" method="post" target="_blank">
+    <p>
+      Ingrese un color: <input type="color" name="colores" placeholder="Ej.: blanco">
+      <input type="submit" value="Enviar datos">
+    </p>
+    </form>
+
+4.E) Crear un formulario con un campo de tipo number y validar que funcione. Además configurar valores mínimos y máximos permitidos.
+
+<form>
+        <div>
+          <label for="party">Ingrese un número del 1 al 100:</label>
+          <input type="number" id="numero" name="numero" min="1" max="100">
+          <button>Enviar</button>
+        </div>
+      </form>
