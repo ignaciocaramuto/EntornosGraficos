@@ -1,0 +1,248 @@
+EJERCITACIÓN 1
+
+1) ¿Qué es HTML, cuándo fue creado, cuáles fueron las distintas versiones y cuál es la última?
+
+    Tim Berners-Lee en 1991 describe 18 elementos que incluyen el diseño inicial y relativamente simple de HTML.HTML (HyperText Markup Language) hace referencia al lenguaje de marcado para la elaboración de páginas web.
+  Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un
+  código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros.
+  Los estándares oficiales HTML son el HTML 2.0, el HTML 3.2, el HTML 4.0, el HTML 4.01 y el HTML 5. El HTLM 5 es la última especificación oficial y se espera que continúe evolucionando a lo largo de los próximos años. El XHTML, una forma más avanzada del HTML que se suponía iba a sustituir a éste, podemos considerar que ha quedado integrado dentro del HTML 5.
+
+2) ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
+
+  Los principios básicos que el W3C recomienda a la hora de crear un documento html son: que el documento incluya la etiqueta <HEAD> </HEAD> la cual contiene información sobre el documento, así mismo la etiqueta <BODY> </BODY> que es la que tiene el contenido principal del documento, y por último una etiqueta <HTML></HTML> que contenga los dos elementos anteriores.
+
+
+3) En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+
+  Un elemento o atributo se considera desaprobado cuando ha quedado anticuado por la presencia de estructuras nuevas. Un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario.
+
+4) ¿Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+
+Una DTD es un documento SGML <<Standard Generalized Markup Language>> que incluye las reglas sintácticas para un tipo de documento específico. Incluye los elementos que se permiten y sus atributos, así como reglas que afectan a la anidación de los primeros y a los valores de los segundos.
+Contrastando un documento con su DTD se puede comprobar si éste es válido o no.
+
+Uso normal:
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+    <html>
+    <head>
+    ...
+    </head>
+    <body>
+    ...
+    </body>
+    </html>
+
+Algunos posibles dtds:
+    "strict.dtd"
+    "loose.dtd"
+    "frameset.dtd"
+
+5. ¿Qué son los metadatos y cómo se especifican en HTML?
+
+  Los Metadatos son elementos HTML que muestran información sobre la propia página web que los contiene. Las etiquetas de metadatos se deben añadir entre las etiquetas <head> </head> del código HTML
+  <META name="description" content="Esta es la descripción general de la página">
+  <META name="keywords" content="Palabras clave separadas por comas">
+  <META name="Author" content="Nombre de autor">
+
+
+EJERCITACIÓN 2
+
+2.a)
+<!-- Código controlado el día 12/08/2009 -->
+
+Este elemento está compuesto por los dos tags que permiten insertar un comentario que solo será visible en el código fuente.
+El contenido es el comentario. No es obligatorio utilizarlo.
+
+2.b)
+<div id="bloque1">Contenido del bloque1</div>
+
+ La etiqueta <div> Sirve para crear secciones o agrupar contenidos. En este caso contiene el texto "Contenido del bloque".
+ Tiene un atributo id que le da un nombre al elemento que lo diferencia de todos los demás del documento "bloque1". No es obligatorio
+
+
+ 2.c)
+ <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+ El elemento de imagen HTML <img> representa una imagen en el documento. Este elemento presenta varios atributos ellos son:
+  src: La URL de la imagen. Este atributo es obligatorio para el elemento <img>
+  alt: Este atributo define el texto alternativo que describe la imagen. Su contenido es "lugar imagen"
+  id: idem 2b. El id de este elemento es "im1"
+  name: El nombre para el elemento. Este atributo se encuentra desaprobado en html 4 y obsoleto en html 5. Reemplazado por id
+  width: El ancho de la imagen en píxeles. Su contenido es 32
+  height: La altura de la imagen en píxeles. Su contenido es 32
+  longdesc: La URL como descripción de una imagen mostrada, complementa al texto de alt
+
+  2.d)
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+En estos dos elementos se encuentra la etiqueta <meta> que sirve para aportar información sobre el documento. Está definido como elemento de cabecera.
+En el primer elemento sus atributos son:
+  name: nombre al que se asocia la metainformación. En este caso es "keywords"
+  lang: información sobre el idioma del contenido del elemento y del valor de sus atributos.
+  content: Los datos que se quieren asociar a "keywords".
+En el segundo elemento:
+  http-equiv: aporta información sobre los encabezado de respuesta HTTP, puede usarse en lugar de name.
+  content: idem primer elemento.
+
+
+  2.e)
+  <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+
+  El Elemento HTML Anchor <a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL. El contenido que se muestra es Resumen HTML y sus atributos:
+    href: Contiene una URL o un fragmento de URL al cual apunta el enlace. Valor en este caso "http://www.e-style.com.ar/resumen.html". Este atributo puede ser omitido (a partir de HTML5) para crear un enlace de marcador de posición.
+    type: Especifica el tipo de medio (media type) en la forma de MIME type para la URL enlazada.
+    hreflang: Este atributo indica el lenguaje humano del recurso al que se enlaza. Este es únicamente informativo.
+    charset: Este atributo define la codificación de caracteres (character encoding) de la URL enlazada. Atributo obsoleto en HTML5
+    rel: Especifica la relación del objeto de destino con el objeto de enlace.
+
+    2.f)
+    <table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+    	<tr>
+    		<th scope="col">&nbsp;</th>
+    		<th scope="col">A</th>
+    		<th scope="col">B</th>
+    		<th scope="col">C</th>
+   	 </tr>
+    	<tr>
+    		<th scope="row">1º</th>
+    		<td>&nbsp;</td>
+    		<td>&nbsp;</td>
+    		<td>&nbsp;</td>
+    	</tr>
+   	 <tr>
+    		<th scope="row">2º</th>
+    		<td>&nbsp;</td>
+    		<td>&nbsp;</td>
+    		<td>&nbsp;</td>
+    	</tr>
+    </table>
+
+Este elemento es una tabla que representa datos en dos o mas dimensiones.
+Comienza con una etiqueta <table> que tiene como atributos width mencionado anteriormente y un atributo summary que define un texto alternativo para describir una tabla en un usuario incapaz de mostrarlo.
+Dentro de la etiqueta table se encuentran varias etiquetas cada una con sus atributos específicos:
+  <caption> : Es el encargado de darle un título descriptivo a las tablas. Tiene como atributo algo que indica la alineación en relación a la tabla, y el título de la tabla es "Titulo".
+  <tr>: define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>.
+    <td>: define la celda de una tabla que contiene datos.
+    <th>: define una celda como la cabecera de una columna en una tabla
+    El atributo scope es un grupo de celdas para las cuales esta celda brinda información de encabezado. En este caso con: todas las celdas en la misma columna.
+
+EJERCITACIÓN 3
+
+3.a)
+
+  1 <a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+  En este caso se muestra el texto "Click aquí para ir a Google" como hipervinculo el cual nos redirecciona a http://www.google.com.ar
+
+  2 <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+  Realiza lo mismo que el anterior ítem solo que esta vez al clickear nos abre la web en una nueva pestaña
+
+  3 <a href="http://www.google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+  En este caso no se visualizará nada en la página web ya que este elemento no tiene una etiqueta de cierre ni contenido.
+
+  4 <a href="#">Click aquí para ir a Google</a>
+  Este elemento muestra un hipervínculo con el texto "Click aquí para ir a Google" que utiliza un fragmento vacío para enlazar a la parte superior de la página actual.
+
+  5 <a href="#arriba">Click aquí para volver arriba</a>
+  Realiza la misma función que el anterior item
+
+  6 <a name="arriba" id="arriba"></a>
+  No realiza ninguna acción ya que no tiene contenido, este elemento solo usa un atributo obsoleto name y le asigna un id al elemento.
+
+
+  3.b)
+  1 <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+  En un mismo párrafo muestra una imagen "im1.png" o un texto alternativo si no se encuentra, y un hipervínculo "Click aquí" que redirecciona a Google
+
+  2 <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+  En un mismo párrafo muestra una imagen que el clickearla nos redirecciona a Google y a su vez muestra un texto "Click Aquí"
+
+  4 <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+  En un mismo párrafo muestra una imagen y un hipervinculo que al clickearlos nos lleva a la página de Google
+
+  5 <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p>
+  Realiza lo mismo que el item anterior solo que esta vez se podría cambiar la url a la cual direcciona ya que usan dos etiquetas <a> individuales.
+
+
+3.c) Primera columna muestra una lista con viñetas con los ítems xxx, yyy, zzz
+     En la segunda columna muestra una lista numerada con los mismos elementos.
+     La tercera columna muestra los mismos elementos pero crea tres listas individuales y asigna los valores de los índices.
+     En la última columna crea una cita en bloque y escribe el contenido de la lista dentro de un párrafo.
+
+
+3.d)  En la primera tabla hace empleo de la etiqueta <th> que define una celda cabecera. En la segunda tabla a una celda normal le agrega atributos tales como centrado y letra negrita.
+
+3.e) El título de la primera tabla se lo da la etiqueta <caption> mientras que en la segunda tabla se hace en una celda con atributos separada por un div.
+
+3.f) Ambas tablas tienen la misma estructura, la única diferencia es el espaciado entre celdas (la primera está espaciada por defecto y en la segunda se le asigna 0 a los atributos de padding y spacing)
+
+3.h) El primer y tercer formulario utilizan fieldset que permite organizar en grupos los campos de un formulario mientras que el segundo formulario utiliza labels. Otra diferencia esta en los métodos HTTP
+     que se utilizan y  la acción que realizan en cada formulario(POST/GET;action.php, mailto, etc)
+
+3.i) En el primer caso tenemos un elemento que muestra un botón que contiene una imagen con las dimensiones dadas en los atributos y un texto. todo esto está dentro de un label.
+     En el segundo elemento  tenemos un label con un texto y un botón que, a diferencia del anterior elemento, solo muestra un texto.
+
+
+3.j) Son dos opciones las cuales aparecen con una selección de tipo radio. La diferencia está en el atributo name, al ser diferentes en el segundo caso permite seleccionar ambas lo cual es incorrecto si estuviéramos
+hablando de una sola lista del tipo radio.
+
+3.k) En ambos casos se muestra un menú con dos grupos de opciones. La diferencia radica en que en el segundo caso podemos seleccionar múltiples opciones de ese menu debido al atributo multiple
+
+EJERCITACIÓN 4
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <a title="UTN" href="https://www.frro.utn.edu.ar/"><img src="https://lh3.googleusercontent.com/proxy/bva6wgLSJQz6bKWB2y_HioiZIFtXXTHs8SiVK9C949xogrvueRQvntEMdHkTvsMi0ynuBaiey2t7fWv25GFcS6BEHkBpGJn2XYDSLpdvhGfYLA_odygd6fid8Hp3wUOGuHdWRLTRFxgqstdvyBLX0g" height="80px" width="80px" alt="UTN" /></a>
+    <hr>
+    <h2>AÑO 2008</h2>
+    <table border="1">
+        <tr>
+          <th COLSPAN=2><b>Exámenes</b></th>
+        </tr>
+        <tr>
+          <td ROWSPAN=2>Fecha: 24/08</td>
+          <td>Aprobados</td>
+        </tr>
+        <tr>
+            <td>24/30</td>
+        </tr>
+    </table>
+    <ol>
+        <li><A href="#enunciado">Enunciado del examen</A></li>
+        <li><a href="https://www.frro.utn.edu.ar/">Resolución</a></li>
+    </ol>
+
+    Puede realizar consultas realizando el siguiente formulario:
+    <Form method = "post" action = "mailto: x@x.com">
+        <ul>
+           <label for="mail"><b>e-mail:</b></label>
+           <input type="email" id="mail" name="user_mail"><br>
+           <label for="msg"><b>consulta:</b></label>
+           <textarea id="msg" name="user_message"></textarea><br>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Borrar">
+        </ul>
+    </form>
+    <A name="enunciado"></A><h3>Enunciado del examen</h3>
+    <p>Ejercicio 1:</p> 
+    Un globo aerostático esférico, de 5 m de radio, está lleno de aire caliente. Calcular cuánto tiene que valer la temperatura interior (supuesta uniforme) para que el globo pueda levantar 150 Kg. La temperatura exterior es de 300 K y la presión 1 atm. Despreciar la tensión del globo.
+    <p>Ejercicio 2:</p>
+    Un objeto de masa M = 5 kg cuelga a una distancia x de una viga de masa m=3 kg
+    y longitud L = 2 m. El valor máximo de la componente vertical de la fuerza que puede ejercer el pivote es 55 N. ¿Qué intervalo de la coordenada x hace
+    que se rompa el pivote? 
+    <p>Ejercicio 3:</p> 
+    Una barra de longitud L y masa M está sujeta al techo por uno de sus extremos, de manera que puede pivotar sobre dicho extremo. Se coloca en posición horizontal (paralela al suelo) y se suelta. Determinar: a) velocidad angular de la barra cuando alcanza la posición vertical y b) aceleración angular en el instante en que se suelta.
+    <br>
+    <br>
+    <p><a href="contacto@email.com">Para más información dirigirse a contacto@email.com</a></p>
+</body>
+</html>
