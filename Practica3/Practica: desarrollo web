@@ -1,0 +1,159 @@
+Parte 1
+1- ¿A qué nos referimos al hablar de Arquitectura de la Información y cuáles son los ítems
+principales que constituyen su metodología?
+
+Es el conjunto de métodos y herramientas que permiten organizar los contenidos, para ser encontrados y utilizados por los usuarios, de manera simple y directa.
+Tiene como objetivos que un usuario entre por primera vez al sitio y pueda reconocer a quién pertenece el Sitio Web; lo pueda entender en forma rápida y sin esfuerzo y encontrar la información ofrecida fácilmente.
+
+2- ¿Cuál es la ventaja de tener identificados y definidos los objetivos del sitio?
+La ventaja de tener identificados y definidos los objetivos del sitio es que todo el equipo de profesionales involucrados tengan claro el horizonte del proyecto.
+
+3- ¿Qué es la audiencia?
+Es el público para el cual se orientará el sitio web.
+
+4- ¿Según qué tipos de características se deben analizar las audiencias? 
+  - Por capacidad física
+  - Por capacidad técnica
+  - Por conocimiento de la institución
+  - Por necesidades de información
+  - Por ubicación geográfica
+
+5- ¿Qué son los escenarios de uso? 
+Son situaciones de uso reales en el Sitio Web, basado en usuarios existentes que puedan llegar al sitio a buscar determinados tipos de información.
+
+6- ¿Cuáles deberían ser los contenidos indispensables de un sitio web? 
+Los contenidos mas importantes de un sitio web son:
+  - Acerca de la Institución: entregar la información completa referida a Autoridades, Organigrama, Normativa legal asociada, Oficinas, Horas de Atención, Teléfonos, etc.
+  - Productos / Servicios: destacar las actividades principales que el usuario puede hacer en la institución; puede incluir una guía de trámites que facilite las acciones de las 
+    personas que acudirán a la institución y que considere servicios interactivos para hacerlos desde el Sitio Web.
+  - Novedades de la Institución: últimas actividades, noticias, nuevos servicios, tramites destacados, etc.
+  
+7- ¿Cuáles son los requerimientos funcionales más frecuentes en un sitio web?
+  - Formulario de Contacto para envío de mensajes electrónicos
+  - Sistema de envío de una noticia por mail a un amigo
+  - Formato de impresión de los contenidos
+  - Mapa del Sitio
+ 
+8- Al definir la estructura de un sitio, ¿cuáles son los dos aspectos fundamentales que se deben considerar? 
+Se deben considerar los aspectos de estructura y diseño.
+
+9- ¿Cuál es la diferencia entre estructura y diseño de un sitio web? 
+  - Estructura: se refiere a la forma que tendrá el Sitio Web en términos generales con sus secciones, funcionalidades y sistemas de navegación. No considera ni incluye elementos gráficos (logotipos, viñetas, etc.).
+  - Diseño: se refiere a la solución gráfica que se creará para el sitio, en la cual aparecen colores, logotipos, viñetas, y otros elementos de diseño que permiten identificar visualmente al sitio.
+
+10- ¿Cuáles son las características que debe tener el sistema de navegación? Explicar c/u. 
+Al generar el sistema de navegación, se deben tener en cuenta las siguientes características:
+
+-Consistente: el sistema debe ser similar en todo el sitio, en lo referido a su ubicación y disposición en las páginas. Esto se aplica también a aquellas instituciones que pueden tener más de un Sitio Web.
+-Uniforme: el sistema debe utilizar similares términos con el fin de que el usuario que lo vea en las páginas, confíe en que sus opciones llevan siempre hacia los mismos lugares dentro del sitio.
+-Visible: el sistema debe distinguirse claramente dentro del sitio, con el fin de que el usuario cuente con él, como si se tratara de una guía permanente en el área en que se encuentre del sitio.
+
+11- ¿Cuáles son los elementos más importantes de un sistema de navegación?
+Los dos elementos más importantes de un sistema de navegación son:
+- Textual: se refiere a que la navegación se hará a través de elementos concretos, tales como menús, guías, botones y otros elementos que deben ser claramente distinguibles dentro de la interfaz.
+- Contextual: es todo lo referido a cómo se presenta la información, utilizando para ellos elementos basados en texto, gráficos o bien de entorno.
+
+12- ¿Cuáles son las cuatro etapas sucesivas que se deben realizar para definir el Diseño Visual de un sitio web y en qué consiste cada una? 
+Las cuatro etapas para definir el diseño visual de un sitio web son:
+
+1) Diseño de las Estructuras de Páginas
+Esta etapa considera la generación de dibujos o diagramas lineales (wireframes) que describen los componentes de cada una de las pantallas del sitio, con el objetivo de 
+verificar la ubicación de cada uno de ellos.
+
+2) Bocetos de Diseño
+Esta etapa consiste en la generación de dibujos digitales acabados de la forma que tendrán las páginas principales del sitio que se desarrolla, considerando como tales la 
+Portada, Portada de Sección y Página de despliegue de contenidos.
+
+3) Borradores de Página
+Una vez que se ha aprobado la etapa anterior, se toman los bocetos de diseño que hayan sido aprobados y se genera un prototipo (páginas clickeables) mediante el cual se pueda comprobar 
+directamente la forma en que se desempeñan, cuando se les aplica la tecnología HTML de construcción de páginas web.
+La intención de esta etapa es usar el diseño de pantalla que se ha creado, contando con enlaces reales que permitan ver la forma de usar sus atributos 
+(cada enlace tiene los estados de Enlace, Flotante, Activo y Visitado) y revisar la forma en que se despliegan las páginas que se van a desarrollar.
+
+4) Maqueta Web
+Es la etapa final y consiste en generar todo el sitio en tecnología HTML utilizando imágenes y contenidos reales (figuras 6, 7 y 8).
+En el caso de un sitio estático, esta etapa corresponderá a la construcción del sitio. En el caso de un sitio dinámico, las páginas que se generen permitirán que el diseñador 
+genere las plantillas de trabajo y el desarrollador de software las utilice como elementos para introducir la programación que sea necesaria para la creación del sitio.
+
+13- ¿Cuáles son los sistemas que puede utilizar un Sitio Web para recibir feedback o retroalimentación de parte del usuario? 
+Algunos de estos sistemas son:
+- Blogs (ej: Blogger, Wordpress)
+- Microblogs (ej: Twitter)
+- Redes Sociales (ej: Facebook)
+- Comunidades Digitales (ej: Bligoo, Ning)
+- Canales Sociales de Video (ej: Youtube, Vimeo)
+- Canales Sociales de Audio (ej: Radio, Podcast)
+- Canales Sociales de Fotografía (ej: Flickr, Picasa)
+- Wikis
+- Foros de Discusión
+- Listas de Discusión
+- Repositorios de Documentos (ej: ISSUU, Scribd, Slideshare)
+- Encuestas de Opinión
+- Sistemas de Votación
+- Sistemas de Clasificación Social (Etiquetas)
+- Agregadores (RSS)
+
+14- ¿En qué consiste la Prueba de verificación de Contenidos?
+es una prueba básica para revisar si el Sitio Web desarrollado incluye todos los contenidos que se han especificado en los Términos de Referencia o los que se hayan definido en el marco del plan de desarrollo. 
+Se puede hacer en forma manual o automática.
+
+15- ¿En qué consiste la Prueba de Verificaciones de Interfaces?
+Mediante esta prueba se revisan aspectos gráficos del Sitio Web, para determinar si su despliegue en las páginas es correcto. 
+
+16- ¿Cuáles son los chequeos más importantes que se deben realizar respecto de las funcionalidades y aplicaciones que ofrece el sitio?
+- Pruebas de Interfaces y Contenidos
+- Pruebas de Funcionalidades y Operación
+- Pruebas de Carga
+- Pruebas de Seguridad
+- Pruebas de Respaldo y Recuperación
+
+
+Parte 2:
+1- ¿Qué es una interfaz y cuáles son sus elementos fundamentales? 
+Se denomina interfaz al conjunto de elementos de la pantalla que permiten al usuario realizar acciones sobre el Sitio Web que está visitando. 
+Por lo mismo, se considera parte de la interfaz a sus elementos de identificación, de navegación, de contenidos y de acción.
+Sus elementos más importantes son:
+1) Dejar claro el propósito del sitio: se refiere a que el sitio debe explicar a quién pertenece y qué permite hacer a quienes lo visitan; 
+se entiende que debe hacerlo de manera simple y rápida. Por ejemplo, ayuda en este sentido el cumplimiento de las normas referidas a uso de URLs y logotipos oficiales.
+
+2)Ayudar a los usuarios a encontrar lo que necesitan: implica que debe contar con un sistema de navegación visible y completo, pero que además deberá estar complementado 
+por algún sistema de búsqueda que sea efectivo para acceder al contenido al que no se logra acceder o que no se encuentra a simple vista.
+
+3)Demostrar el contenido del sitio: significa que el contenido se debe mostrar de manera clara, con títulos comprensibles por parte del usuario y con enlaces 
+hacia las secciones más usadas que estén disponibles donde el usuario los busque. Ayudará en este sentido tener un seguimiento de las visitas para comprender qué es lo más visto y lo más buscado del Sitio Web.
+
+4)Usar diseño visual para mejorar y no para definir la interacción del Sitio Web: se refiere a que los elementos gráficos del Sitio Web deben estar preparados para ayudar 
+en los objetivos del sitio y no sólo como adornos utilizados para rellenar espacio. Aunque se trata de uno de los temas más debatibles, su alcance no es el de restringir 
+el uso de imágenes y elementos gráficos, sino a que su uso sea adecuado para la experiencia de uso que se desea ofrecer.
+
+2- ¿Qué es un sistema de navegación y cuáles deben ser sus elementos indispensables?
+Los sistemas de navegación son los elementos de una interfaz que permiten la navegación por las diferentes secciones y páginas que componen el sitio web. Mas concretamente, es todo lo referido a 
+cómo se presenta la información, utilizando para ellos elementos basados en texto, gráficos o bien de entorno.
+Entre los elementos más relevantes que conforman el sistema de navegación se cuentan los siguientes:
+- Menú General
+- Pie de Página
+- Barra Corporativa
+- Ruta de Acceso
+- Fecha de publicación
+- Botón Home
+- Botón Mapa del sitio
+- Botón Contacto
+- Buscador
+- Botón Ayuda
+- Botón Imprimir
+
+3- ¿Qué es Flash y qué problemas puede acarrear su uso? 
+es una herramienta de autoría para la creación de contenido multimedia e interactivo. Permite conectar componentes gráficos y programación técnica. Se pueden crear nuevos objetos gráficos 
+o integrar los ya existentes. Al mismo tiempo, pueden ser fácilmente dirigidos y animados por código ActionScript. Además, los elementos de audio se pueden añadir rápidamente. Por lo que se aplica desde juegos hasta banners.
+Flash es un software propietario y este hecho puede limitar la libertad que Internet siempre ha tenido.
+
+4- ¿Qué es AJAX y qué problemas puede acarrear su uso?
+es una técnica de desarrollo web para crear aplicaciones interactivas o RIA. Estas aplicaciones se ejecutan en el cliente, es decir, en el navegador de los usuarios mientras se mantiene la comunicación 
+asíncrona con el servidor en segundo plano.
+Los problemas que puede acarrear su uso pueden ser:
+- Las páginas creadas dinámicamente mediante peticiones sucesivas AJAX, no son registradas de forma automática en el historial del navegador, así que haciendo clic en el botón de "volver" del navegador, 
+el usuario no será devuelto a un estado anterior de la página, en cambio puede volver a la última página que visitó. Soluciones incluyen el uso de IFrames invisible para desencadenar cambios en el historial del navegador y el cambio de la porción de anclaje de la dirección (después de un #).
+- Hay problemas usando Ajax entre nombres de dominios, a esto se le conoce como Same Origin Policy o Política del Mismo Origen, lo cual es una medida de seguridad que puede ser solucionada con Cross-Origin Resource Sharing (CORS).
+- Dependiendo de como se desarrolle el sitio web, puedes mejorar o empeorar la carga en el servidor. Ajax puede ayudar al servidor a evitar la fase de renderización de HTML, dejándole ese trabajo al cliente, pero también puede sobrecargar al servidor si se hace varias llamadas a Ajax.
+- Es posible que páginas con Ajax no puedan funcionar en teléfonos móviles, PDA u otros aparatos. Ajax no es compatible con todos los software para invidentes u otras discapacidades.
+
