@@ -1,0 +1,47 @@
+EJERCICIO 1
+
+Variables:
+  - a → boolean
+  - b → string
+  - c → string
+  - d → integer
+  - f → integer
+  - g → integer
+
+Operadores:
+  - = → asignación
+  - += → asignación y suma
+  - ? … : … → operador ternario
+  - $d++ → post-incremento
+  - $d++ → pre-incremento
+  - * → producto
+
+Funciones:
+  - doble()
+  - Parámetro utilizado: $d++
+  - gettype()
+  - Parámetros utilizados: $a, $b, $c, $d
+  - is_int()
+  - Parámetro utilizado: $d
+  - is_string()
+  - Parámetro utilizado: $a
+
+Estructuras de control:
+  - if (is_int($d)) { $d += 4; }
+
+Salida por pantalla:
+booleanstringstringinteger1xyzxyz184444
+
+EJERCICIO 2
+
+ - Los codigos son equivalentes
+ - Los codigos son equivalentes
+ - Los codigos son equivalentes
+
+EJERCICIO 3
+
+  - El código genera una tabla con 5 filas y 2 columnas
+  - El código valida, una vez enviado el formulario donde se completa el campo edad, si es mayor de edad o no. Imprime “Mayor de edad” si lo ingresado es mayor a 21 y “Menor de edad” si es menor a 21
+
+EJERCICIO 4
+El programa intentará hacer el primer print (echo “El $flor $color \n”;) pero como nunca se le indico hasta ese momento que se usarían los datos de datos.php tiraría un error de variables indefinidas. Sin embargo, para el siguiente print, se escribió la línea include ‘datos.php’ anteriormente. Por lo que la salida sería la esperada: El clavel blanco.
