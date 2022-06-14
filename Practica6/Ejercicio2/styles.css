@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.add-city {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em;
+    margin-right: 1em
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 1em;
+}
+
+.checkbox {
+    width: 25px;
+    margin: 0 0 0 10px;
+}
+
+.tiene-metro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
